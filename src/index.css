@@ -1,6 +1,11 @@
-.visible{
-  display: flex;
-}
-.invisible{
-  display: none;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
 }

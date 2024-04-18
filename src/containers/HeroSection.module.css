@@ -1,0 +1,14 @@
+.HeroSection{
+    background-image: url(../../public/admin/hero/hero-1.png);
+    background-size:cover;
+    background-color: #E6E5E5;
+    }
+
+@media screen and (min-width:900px){
+    .HeroSection{
+        background-position: right;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding:0 3rem;;
+    }
+}
